@@ -1,4 +1,4 @@
-* Add content relevant to the presentation below
+* README
 
 ** To create presentations
 
