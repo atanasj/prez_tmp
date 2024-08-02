@@ -1,0 +1,245 @@
+#+Title: Title
+#+subtitle: subtitle
+#+Author: Atanas Janackovski
+#+Email: atanas@email.com
+#+bibliography: /Users/atanas/.config/pandoc/MyLib.bib
+#+cite_export: csl /Users/atanas/Zotero/styles/apa.csl
+#+KEYWORDS: keywords
+#+DESCRIPTION: description
+
+#+OPTIONS: reveal_center:t reveal_progress:t reveal_history:nil reveal_control:t
+#+OPTIONS: reveal_rolling_links:t reveal_keyboard:t reveal_overview:t num:nil
+#+OPTIONS: toc:nil reveal_slide_number:c/t
+# #+OPTIONS: reveal_title_slide:nil
+#+OPTIONS: reveal_width:1400 reveal_height:1000
+#+REVEAL_MARGIN: 0.04
+#+REVEAL_MIN_SCALE: 0.2
+#+REVEAL_MAX_SCALE: 3.0
+#+REVEAL_THEME: dracula
+#+REVEAL_HLEVEL: 2
+#+REVEAL_HEAD_PREAMBLE: <meta name="description" content="lecture name">
+#+REVEAL_POSTAMBLE: <p> Created by Atanas Janackovski. </p>
+#+REVEAL_TITLE_SLIDE: <h2>%t</h2><h3>%s</h3><br><br><h5>%a</h5>
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js@5.1.0
+# #+REVEAL_ADD_PLUGIN: chalkboard RevealChalkboard https://cdn.jsdelivr.net/gh/rajgoel/reveal.js-plugins/chalkboard/plugin.js
+# #+REVEAL_EXTRA_CSS: https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css
+#+REVEAL_TITLE_SLIDE_BACKGROUND: https://hakim-static.s3.amazonaws.com/reveal-js/logo/v1/reveal-black-text-sticker.png
+#+REVEAL_EXTRA_CSS: ./local.css
+#+REVEAL_PLUGINS: (notes zoom)
+
+# notes on citations
+# https://orgmode.org/manual/Citations.html
+# https://github.com/emacs-citar/citar/wiki/Org-cite
+
+* Acknowledgement of Country
+
+#+BEGIN_NOTES
+- We acknowledge the traditional custodians of the land on which this meeting is
+  taken place, the Dharawal people.
+- I also want to recognise any other traditional lands and peoples that
+  participants may be joining from via Zoom.
+- I pay our respects to their Elders past, present, and emerging.
+- I extend this respect to all Aboriginal and Torres Strait Islander peoples joining us today.
+#+END_NOTES
+
+* Learning Outcomes
+
+- Develop knowledge around the different kinds of Group Interventions
+- Understand the key aspects of a therapeutic group
+- Recognise group dynamics and their use for a more effective intervention
+
+* Where are you now?
+
+Think of a setting in which you plan to work. List the different kinds of groups
+you might lead in that setting.
+
+
+1. Experience with Individuals
+2. Experience with Groups
+3. Planning and Organisation Skills
+4. A Good Understanding of Basic Human Conflicts and Dilemmas
+5. A Good Understanding of Psychological Theory
+
+
+#+BEGIN_NOTES
+
+Rate yourself on these skills, based (10 being excellent at the skill). If you are not
+an 8, 9, or 10, what is your plan for improving on the given skill? (You may
+want to skip the skill of knowledge of the topic because that will depend on the
+ass topic.)
+
+
+1. Experience with Individuals: based on you current training...
+2. Experience with Groups: based on your current training...
+3. Planning and Organisation Skills: this could be any skills, not necessarily groups
+4. A Good Understanding of Basic Human Conflicts and Dilemmas: shame,
+   attachment, and the ANS.
+5. A Good Understanding of Psychological Theory: theory of mind, underlying
+   theory of psychopathology, and appropriate interventions, how do we change.
+
+Group activity
+
+Get participant up to demonstrated current understanding, introduce self and
+provide current understanding.
+
+NOTE consider ZOOM approach to same
+
+Bracketing is a way to validate your research process and results.
+
+#+END_NOTES
+
+* Group Interventions
+
+** Different Group Interventions
+
+[cite/t:@scheidlinger1982] proposed four related categories of group
+interventions:
+
+#+ATTR_REVEAL: :frag (grow grow none none) :frag_idx (2 1 3 4)
+1. *Clinical group psychotherapy*
+2. *Human development and training groups (T-groups)*
+3. *Therapeutic Groups in Mental Health Settings*
+4. *Self-Help and Mutual-Help Groups*
+
+#+begin_notes
+Get some input as to examples of each.
+Note, that we will mostly be exposed to 1 and 3, and 1 will require more skills
+development, however, usually 3 is part of 1 in some way.
+
+Structured to less structured.
+
+1. *Clinical Group Psychotherapy*:
+   1. Led by trained mental health pros.
+   2. Targets emotional interaction, personality dysfunctions.
+   3. Requires prior assessments, acceptance of therapy.
+
+2. *Human Development and Training Groups*:
+   1. Educational focus.
+   2. Include consciousness-raising, sensitivity training.
+   3. Methods: Laboratory Method, Self-analytic groups.
+
+3. *Therapeutic Groups in Mental Health Settings*:
+   1. Various approaches beyond formal therapy.
+   2. Aim to aid remediation, optimize functioning.
+   3. Examples: art therapy, therapeutic community, occupational therapy
+
+4. *Self-Help and Mutual-Help Groups*:
+   1. Voluntary, for shared issues.
+   2. Self-governing, emphasise self-reliance.
+   3. Categories:
+      1. Behavioural control (e.g., AA).
+      2. Stress coping (e.g., Al-Anon).
+      3. Survival-oriented (e.g., Gay Rights).
+      4. Personal growth (e.g., Landmark Forum).
+#+end_notes
+
+** Group versus Individual Therapy
+
+#+REVEAL_HTML: <div style="display: grid; grid-template-columns: 22% 78%;">
+#+REVEAL_HTML:<DIV CLASS="VerticalText"><br><br><br><h2 style="color: white;"; class="r-fit-text">MORE</h2></DIV>
+
+#+ATTR_REVEAL: :frag (none none none none none grow) :frag_idx (6 - - - - -)
+- Interactions between members
+- Anxieties to investigate
+- Difficulties to navigate
+- Content and process
+- Affect to track
+- *EVERYTHING*
+#+REVEAL_HTML: </div>
+
+** Unique to Group Therapy
+
+#+REVEAL_HTML: <div style="display: grid; grid-template-columns: 22% 78%;">
+#+REVEAL_HTML:<DIV CLASS="VerticalText"><br><br><br><h2 style="color: orange;"; class="r-fit-text">MORE</h2></DIV>
+
+ - Collective resources
+ - Points of view on any particular problem
+ - Sources for giving and receiving kindness
+ - Chances for therapeutic conflict
+ - Pathways toward a deeper understanding of self
+#+REVEAL_HTML: </div>
+
+#+BEGIN_NOTES
+Whilst there are new skills to develop, there are multiple benefits to this
+
+*Individual Therapy:*
+- One-on-one interaction between therapist and client.
+- Personalised and tailored treatment plans.
+- Confidential exploration of client's issues.
+- Techniques and interventions adapted to client's needs.
+- Safe space for vulnerable sharing.
+- Intensive work on personal goals.
+
+*Group Therapy:*
+- Multiple clients with one or more therapists.
+- Utilizes group dynamics for diverse perspectives and support.
+- Benefits from shared experiences and peer feedback.
+- Fosters sense of community and reduces isolation.
+- Opportunities to practice social skills.
+- Observing different coping mechanisms in real-time.
+#+END_NOTES
+
+** Importance of group therapy in clinical practice
+
+- Clinic /saves time, space and professionals/
+- /No difference in outcome/ with individual therapy [cite: e.g.,
+  @burlingame2016; @burlingame2017; @mackenzie1996]
+- Feedback from /peers/ in group therapy /helps patient reflect on their
+  behaviour/ patterns
+- Although /different approaches/ (cognitive, behavioural, psychodynamic) /group
+  dynamics are the same/, no matter what the nature of the group
+  [cite:@mackenzie1996]
+
+#+BEGIN_NOTES
+*Stress the last point* Moreover, fit is important.
+
+- Group psychotherapy can benefit patients depending on the therapy group
+  structure and the individual patient.
+- There is a wide variety of group psychotherapy approaches with different
+  designs and practices [cite:@shay2017].
+- Clinical indications for group therapy can be narrow (e.g., based on DSM
+  diagnosis or specific problems) with a homogenous group membership.
+- Indications can also be broad (e.g., difficulties in interpersonal
+  relationships, emotional dysregulation) with a heterogeneous group membership.
+- Therapy groups can be short-term and focused on specific problems or themes.
+- /What is required is some modification of technique to maximise the effects
+  while taking the role of time seriously./
+#+END_NOTES
+
+** Group Therapy is...
+
+Much more than one entity:
+
+- Practised with /different/ populations (narrow to homogenous)
+- In /different/ settings (inpatient, outpatient, online)
+- Using /different/ approaches (psychoeducation, support, etc.)
+- Based on /different/ theories of mind and psychopathology
+- With /different/ degrees of success
+
+The accent here is on /DIFFERENCES/.
+
+#+REVEAL_HTML:<br>
+#+REVEAL_HTML:<center><b>How can a clinician new to this modality navigate its diversity to develop their own approach to leading a group?
+#+REVEAL_HTML:</b></center>
+
+#+BEGIN_NOTES
+An overview of the theories and techniques of the group therapies requires focus.
+
+- You still need an underlying theory of human behaviour and psychopathology to
+  help organise your thinking and understanding
+- Theoretical models identify dysfunctional patterns across various levels of
+  psychological functioning.
+- Different approaches focus on overt behavior, cognitive style, interpersonal
+  patterns, or internal attribution of meaning.
+- Some models concentrate on the present, while others emphasise the past.
+- All models address issues of self-esteem and mastery of the interpersonal
+  environment.
+- Clinicians need to employ intervention techniques at different levels for
+  different patients and possibly for the same patient over time.
+- Flexibility and intentional use of multiple models is a beneficial strategy
+  for clinicians.
+
+And just like in individual therapy, there will be therapist factors and
+individual factors that contribute to outcome
+
+#+END_NOTES

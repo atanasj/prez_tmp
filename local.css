@@ -1,0 +1,19 @@
+.reveal p {
+    text-align: left;
+}
+.VerticalText {
+    -moz-transform: rotate(270deg) translate(0px,0px); /* Firefox 3.5+ */
+    -o-transform: rotate(270deg) translate(0px,0px); /* Opera 10.5 */
+    -webkit-transform: rotate(270deg) translate(0px,0px); /* Safari 3.1+, Chrome */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); /* IE 6,IE 7 */
+    -ms-filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); /* IE 8 */
+    -ms-transform: rotate(270deg) translate(0px,0px); /* IE 9+ */
+}
+.speaker-controls-notes {
+    font-size: small;
+}
+
+/* custom.css to deal with blurry chalkboard*/
+.reveal > .overlay {
+  backdrop-filter: unset!important;
+}
