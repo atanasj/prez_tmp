@@ -1,11 +1,12 @@
 * Add content relevant to the presentation below
 
-** To create new presenation
+** To create presentations
 
-Clone this repo.
-
-Add local resources in the ~./assets~ directory.
+Clone this repo, then update the ~index.org~ file as required. Add local
+resources in the ~./assets~ directory.
 
 Update the GitHub pages link below.
+
+------
 
 Access the slides by clicking on [[https://atanasj.github.io/prez_tmp/][this link]].
