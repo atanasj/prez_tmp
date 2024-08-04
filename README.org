@@ -52,3 +52,8 @@ content, e.g., YouTube, which can be embedded into the presentation.
 If you want to have this repo as base for a presentation on GitHub pages, update
 the link below. Access the slides by clicking on [[https://atanasj.github.io/prez_tmp/][this link]].
 
+* Dependencies
+
+- [[https://www.gnu.org/software/emacs/][Emacs]]
+- [[https://orgmode.org/][Org-mode]]
+- [[https://gitlab.com/oer/org-re-reveal][Org-re-reveal]]
