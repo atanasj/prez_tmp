@@ -24,7 +24,8 @@
 # #+REVEAL_ADD_PLUGIN: chalkboard RevealChalkboard https://cdn.jsdelivr.net/gh/rajgoel/reveal.js-plugins/chalkboard/plugin.js
 # #+REVEAL_EXTRA_CSS: https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css
 #+REVEAL_TITLE_SLIDE_BACKGROUND: https://hakim-static.s3.amazonaws.com/reveal-js/logo/v1/reveal-black-text-sticker.png
-#+REVEAL_EXTRA_CSS: ./local.css
+# #+REVEAL_EXTRA_CSS: ./local.css, this is the local to push any changes to the below
+#+REVEAL_EXTRA_CSS: https://atanasj.github.io/prez_tmp/local.css
 #+REVEAL_PLUGINS: (notes zoom)
 
 # notes on citations
