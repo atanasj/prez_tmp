@@ -2,19 +2,21 @@
 
 ** To create presentations
 
-Clone this repo, then update the ~index.org~ file as required. Add local
-resources in the ~./assets~ directory. Alternatively, can copy the relevant
-=url= of the resource and add into the slide deck appropriately. The latter is
-particularly recommended for online video content, e.g., YouTube, which can be
-embedded into the presentation.
+Clone this repo, update the [[To host a presentation][link below]], then update the ~index.org~ file as
+required.
 
-No need to update the GitHub pages link below so that it points to your
-repository.
+I use this repository for hosting images or other content that I would like to
+embed into presentations that are not available on the public domain in order to
+make slide decks transportable, and only require a working internet connection.
 
-I will use this repository for hosting images or other content that I would like
-to embed into presentations that are not available on the public domain in order
-to make slide decks transportable, and only require a working internet connection.
+Add local resources in the ~./assets~ directory. Alternatively, can copy the
+relevant =url= of the resource yo find on the internet and add into the slide
+deck appropriately. The latter is particularly recommended for online video
+content, e.g., YouTube, which can be embedded into the presentation.
+
 
 ------
+** To host a presentation
 
-Access the slides by clicking on [[https://atanasj.github.io/prez_tmp/][this link]].
+If you want to have this repo as base for a presentation on GitHub pages, update
+the link below. Access the slides by clicking on [[https://atanasj.github.io/prez_tmp/][this link]].
