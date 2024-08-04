@@ -1,5 +1,36 @@
 * README
 
+** To clone this repository
+
+*** Clone the repository:
+
+#+begin_src sh
+git clone https://github.com/atanasj/prez_tmp.git YOUR_NEW_REPO
+cd YOUR_NEW_REPO
+#+end_src
+
+*** Create a new repository on GitHub:
+
+- Go to https://github.com/new.
+- Name your new repository.
+- Do not initialise with a README, ~.gitignore~, or license file.
+
+*** Set the new repository as your origin:
+
+#+begin_src sh
+git remote rename origin upstream
+git remote add origin https://github.com/YOUR_USERNAME/YOUR_NEW_REPO.git
+#+end_src
+
+*** Push to the new repository:
+
+#+begin_src sh
+git push -u origin main
+#+end_src
+
+Replace =YOUR_USERNAME= and =YOUR_NEW_REPO= with your GitHub username and the
+name of your new repository, respectively.
+
 ** To create presentations
 
 Clone this repo, update the [[To host a presentation][link below]], then update the ~index.org~ file as
@@ -20,3 +51,4 @@ content, e.g., YouTube, which can be embedded into the presentation.
 
 If you want to have this repo as base for a presentation on GitHub pages, update
 the link below. Access the slides by clicking on [[https://atanasj.github.io/prez_tmp/][this link]].
+
