@@ -30,6 +30,7 @@
 
 # notes on citations
 # https://orgmode.org/manual/Citations.html
+# https://blog.tecosaur.com/tmio/2021-07-31-citations.html#cite-syntax
 # https://github.com/emacs-citar/citar/wiki/Org-cite
 
 * Acknowledgement of Country
