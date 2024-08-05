@@ -21,6 +21,7 @@
 #+REVEAL_POSTAMBLE: <p> Created by Atanas Janackovski. </p>
 #+REVEAL_TITLE_SLIDE: <h2>%t</h2><h3>%s</h3><br><br><h5>%a</h5>
 #+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js@5.1.0
+# ADD other plugins as per the format below
 # #+REVEAL_ADD_PLUGIN: chalkboard RevealChalkboard https://cdn.jsdelivr.net/gh/rajgoel/reveal.js-plugins/chalkboard/plugin.js
 # #+REVEAL_EXTRA_CSS: https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css
 # #+REVEAL_EXTRA_CSS: ./local.css, this is the local to push any changes to the below
