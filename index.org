@@ -25,9 +25,24 @@
 # #+REVEAL_ADD_PLUGIN: chalkboard RevealChalkboard https://cdn.jsdelivr.net/gh/rajgoel/reveal.js-plugins/chalkboard/plugin.js
 # #+REVEAL_EXTRA_CSS: https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css
 # #+REVEAL_EXTRA_CSS: ./local.css, this is the local to push any changes to the below
+
+#+REVEAL_PLUGINS: (multiplex notes search zoom)
+
+# The following ID and SECRET are real.  Do not use them unless you
+# like others to mess with your presentation.
+#+REVEAL_MULTIPLEX_ID: 768546279c1de63f
+#+REVEAL_MULTIPLEX_SECRET: 15664574924923436538
+# #+REVEAL_ADD_PLUGIN: seminar RevealSeminar https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/seminar/plugin.js
+# #+REVEAL_ADD_PLUGIN: https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.5/socket.io.js
+# #+REVEAL_INIT_SCRIPT: seminar: {
+# #+REVEAL_INIT_SCRIPT: server: 'http://localhost:4433',
+# #+REVEAL_INIT_SCRIPT: room: 'Some room name',
+# #+REVEAL_INIT_SCRIPT: hash: '$2a$05$hhgakVn1DWBfgfSwMihABeYToIBEiQGJ.ONa.HWEiNGNI6mxFCy8S',
+# #+REVEAL_INIT_SCRIPT: autoJoin: true
+# #+REVEAL_INIT_SCRIPT: },
 #+REVEAL_EXTRA_CSS: https://atanasj.github.io/prez_tmp/local.css
 #+REVEAL_TITLE_SLIDE_BACKGROUND: https://atanasj.github.io/prez_tmp/assets/935/whale.jpg
-#+REVEAL_PLUGINS: (notes zoom)
+#+REVEAL_PLUGINS: (notes zoom multiplex)
 
 # notes on citations
 # https://orgmode.org/manual/Citations.html

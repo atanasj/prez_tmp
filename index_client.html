@@ -23,8 +23,8 @@
 <h2>Title</h2><h3>subtitle</h3><br><br><h5>Atanas Janackovski</h5>
 </section>
 <section>
-<section id="slide-org1d2fb59">
-<h2 id="org1d2fb59">Acknowledgement of Country</h2>
+<section id="slide-org1ffb188">
+<h2 id="org1ffb188">Acknowledgement of Country</h2>
 <aside class="notes">
 <ul>
 <li>We acknowledge the traditional custodians of the land on which this meeting is
@@ -40,14 +40,14 @@ participants may be joining from via Zoom.</li>
 </section>
 </section>
 <section>
-<section id="slide-orgde4484d">
-<h2 id="orgde4484d">Learning Outcomes</h2>
+<section id="slide-org5335d1d">
+<h2 id="org5335d1d">Learning Outcomes</h2>
 
 </section>
 </section>
 <section>
-<section id="slide-org0341369">
-<h2 id="org0341369">Embedded Video</h2>
+<section id="slide-org73c2161">
+<h2 id="org73c2161">Embedded Video</h2>
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/PwnfWMNbg48?si=Zdjl-zi_e_q1F1-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </section>
 </section>
@@ -83,7 +83,7 @@ maxScale: 3.00,
 transition: 'convex',
 transitionSpeed: 'default',
 multiplex: {
-    secret: '15664574924923436538', // null if client
+    secret: null, // null if client
     id: '768546279c1de63f', // id, obtained from socket.io server
     url: 'https://reveal-js-multiplex-ccjbegmaii.now.sh' // Location of socket.io server
 },
@@ -94,7 +94,7 @@ plugins: [ RevealNotes, RevealZoom,  ],
 // Optional libraries used to extend reveal.js
 dependencies: [
  { src: 'https://cdn.socket.io/socket.io-1.3.5.js', async: true },
- { src: 'https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/multiplex/master.js', async: true }]
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/multiplex/client.js', async: true }]
 
 });
 </script>
