@@ -17,3 +17,6 @@
 .reveal > .overlay {
   backdrop-filter: unset!important;
 }
+/* the slide will have contents with no heading using: */
+/* :HTML_HEADLINE_CLASS: hidden */
+.hidden { display: none;}
